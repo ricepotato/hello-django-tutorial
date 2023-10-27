@@ -24,3 +24,7 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+# Choice.objects.create(question_id=1, choice_text="hello", votes=0)
+# Choice.objects.create(question_id=1, choice_text="world", votes=0)
